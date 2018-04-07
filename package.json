@@ -1,0 +1,26 @@
+{
+  "name": "burgerstore-app",
+  "version": "1.0.0",
+  "description": "Save all the burgers you want to try and check them off once you've eaten them",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CamBurrows/burgerstore-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CamBurrows/burgerstore-app/issues"
+  },
+  "homepage": "https://github.com/CamBurrows/burgerstore-app#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "mysql": "^2.15.0"
+  }
+}
